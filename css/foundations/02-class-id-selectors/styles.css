@@ -1,19 +1,18 @@
 .odd-num {
-    background-color: rgb(255, 182, 193);
+    background-color: #ffb6c1;
     font-family: Verdana,"Dejavu Sans",sans-serif;
 }
+
 .font-size-med {
     font-size: 24px;
 }
-.font-size-larg {
+
+#two {
     font-size: 36px;
+    color: #0000ff;
 }
-.weight-bold {
+
+#four {
     font-weight: bold;
-}
-.bg-color-green {
-    background-color: rgb(144, 238, 144);
-}
-.color-blue {
-    color: rgb(0, 0, 255);
+    background-color: #90ee90;
 }
