@@ -1,13 +1,13 @@
-#button-one {
-    background-color: #000000;
-    color: hsl(0, 0%, 100%);
+.dark {
+    background-color: black;
+    color: white;
 }
 
-#button-two {
+.themed {
     background-color: yellow;
 }
 
-.font {
+.simple-font {
     font-family: Helvetica, "Times New Roman",
      sans-serif;
     font-size: 28px;
