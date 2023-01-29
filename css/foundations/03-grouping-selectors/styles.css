@@ -1,3 +1,10 @@
+.dark,
+.themed {
+    font-family: Helvetica, "Times New Roman",
+     sans-serif;
+    font-size: 28px;
+}
+
 .dark {
     background-color: black;
     color: white;
@@ -5,10 +12,4 @@
 
 .themed {
     background-color: yellow;
-}
-
-.simple-font {
-    font-family: Helvetica, "Times New Roman",
-     sans-serif;
-    font-size: 28px;
 }
