@@ -14,17 +14,10 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
 }
 
-.container-left {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-}
-
-.container-right {
+.container-left, .container-right {
   display: flex;
   gap: 16px;
   align-items: center;
@@ -64,4 +57,5 @@ ul {
   display: flex;
   gap: 16px;
   padding: 0px;
+  margin: 0px;
 }
