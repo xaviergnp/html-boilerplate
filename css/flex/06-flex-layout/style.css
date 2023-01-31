@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px 16px;
 }
 
 input {
@@ -31,22 +32,24 @@ input {
 
 .header {
   display: flex;
+  justify-content: space-between;
+  padding: 0px 16px;
 }
 
 .left-links {
   display: flex;
-  justify-content: flex-start;
 }
 
 .right-links {
   display: flex;
-  justify-content: flex-end;
-  align-self: flex-end;
+
 }
 
 ul {
   list-style-type: none;
   gap: 16px;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 a {
@@ -64,4 +67,7 @@ a {
 .footer {
   background: #eee;
   display: flex;
+  justify-content: space-between;
+  padding: 0px 16px;
+  align-items: flex-end;
 }
