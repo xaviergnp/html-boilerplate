@@ -22,14 +22,11 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   padding: 15px;
-  /* align-items: flex-start; */
   gap: 5px;
 }
 
 .notif-container {
-  /* display: flex; */
   margin-left: 10px;
-
 }
 
 .header-container {
