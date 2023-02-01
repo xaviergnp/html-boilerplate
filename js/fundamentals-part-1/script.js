@@ -5,8 +5,7 @@
 // let age = 18;
 // let message = 'Hi!';
 // alert(message);
-let admin;
-let name;
+let admin, name;
 name = "John";
 admin = name;
 alert(admin);
