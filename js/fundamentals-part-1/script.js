@@ -5,7 +5,13 @@
 // let age = 18;
 // let message = 'Hi!';
 // alert(message);
+
+// #1
 let admin, name;
 name = "John";
 admin = name;
 alert(admin);
+
+// #2
+let planet = "Earth";
+let currentUser;
