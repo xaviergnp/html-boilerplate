@@ -13,5 +13,5 @@ admin = name;
 alert(admin);
 
 // #2
-let planet = "Earth";
+let ourPlanetName = "Earth";
 let currentUser;
