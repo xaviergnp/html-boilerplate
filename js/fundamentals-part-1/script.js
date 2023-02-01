@@ -6,12 +6,16 @@
 // let message = 'Hi!';
 // alert(message);
 
-// #1
+// https://javascript.info/variables
+
+// #1 Working with variables
 let admin, name;
 name = "John";
 admin = name;
 alert(admin);
 
-// #2
+// #2 Giving the right name
 let ourPlanetName = "Earth";
 let currentUserName = "John";
+
+// #3 Uppercase cons?
