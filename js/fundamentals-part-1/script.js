@@ -19,3 +19,9 @@ let ourPlanetName = "Earth";
 let currentUserName = "John";
 
 // #3 Uppercase cons?
+function someCode() {
+    // some code
+};
+
+const birthday = '18.04.1982';
+const age = someCode(birthday);
