@@ -9,9 +9,9 @@
 // https://javascript.info/variables
 
 // #1 Working with variables
-let admin, name;
-name = "John";
-admin = name;
+let admin, userName;
+userName = "John";
+admin = userName;
 alert(admin);
 
 // #2 Giving the right name
