@@ -14,4 +14,4 @@ alert(admin);
 
 // #2
 let ourPlanetName = "Earth";
-let currentUser;
+let currentUserName = "John";
