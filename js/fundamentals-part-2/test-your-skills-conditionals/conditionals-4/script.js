@@ -5,6 +5,12 @@ let machineResult;
 let pwdResult;
 
 // Add your code here
+if (machineActive) {
+    machineResult = "Machine is turned ON.";
+    pwdResult = pwd == "cheese" ? "User logged in successfully." : "Login attempt was not successfull!";
+} else {
+    machineResult = "The machine is turned OFF! Switch it on!";
+}
 
 // Don't edit the code below here!
 
