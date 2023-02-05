@@ -18,4 +18,4 @@ para1.textContent = machineResult;
 para2.textContent = pwdResult;
 
 section.appendChild(para1);
-section.appendChild(para2);)
+section.appendChild(para2);
