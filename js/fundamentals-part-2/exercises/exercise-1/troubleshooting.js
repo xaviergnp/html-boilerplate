@@ -4,8 +4,11 @@ function troubleshooting() {
 
     let result;
 
+    // Edit between these lines
+    // =============================================
     result = "a" + "b";
 
+    // =============================================
     return result;
 }
 
