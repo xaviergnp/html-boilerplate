@@ -1,4 +1,4 @@
-function troubleshooting() {
+export function troubleshooting() {
     const a = 1;
     const b = 2;
 
@@ -12,4 +12,4 @@ function troubleshooting() {
     return result;
 }
 
-module.exports = troubleshooting;
+// module.exports = troubleshooting;

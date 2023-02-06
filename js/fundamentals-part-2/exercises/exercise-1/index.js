@@ -1,6 +1,8 @@
 "using strict";
-const abTroubleshoot = require("./");
-const result = abTroubleshoot();
+import { troubleshooting } from "./troubleshooting.js";
+// const abTroubleshoot = require("./");
+// const result = abTroubleshoot();
+const result = troubleshooting();
 
 if(result === 2) {
     console.log("Congrats! You got the correct answer");
