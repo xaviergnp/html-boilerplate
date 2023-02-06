@@ -1,4 +1,5 @@
 "use strict";
+
 let number = Number(prompt("Enter a number"));
 
 function numberChecker() {
