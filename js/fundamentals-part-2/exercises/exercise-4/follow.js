@@ -49,15 +49,24 @@
 */
 
 // Edit below this line =============
-const firstName = "Jake";
-const lastName = "Doug";
-const birthYear = 2005;
-let thisYear = 2023;
-let greeting = `Hello ${firstName}, how is your family bussines -${lastName} Donuts- doing? You can inherit the company since you\'re already ${thisYear-birthYear} years old!`;
+// const firstName = "Jake";
+// const lastName = "Doug";
+// const birthYear = 2005;
+// let thisYear = 2023;
+// let greeting = `Hello ${firstName}, how is your family bussines -${lastName} Donuts- doing? You can inherit the company since you\'re already ${thisYear-birthYear} years old!`;
+
+// console.log(greeting);
+
+const birthYear = 1948;
+let thisYear = 1965;
+let age = thisYear - birthYear;
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const fullName = firstName + " " + lastName;
+
+let greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
 
 console.log(greeting);
-
-
 
 
 // Edit above this line ==============
@@ -67,25 +76,25 @@ console.log(greeting);
 
 // Step 2: 
 
-module.exports = {
-	testGroup: "a",
-	greeting,
-	birthYear,
-	thisYear,
-	firstName,
-	lastName
-}
-
-
-// Step 3: (Be sure to comment out Step 2)
-
 // module.exports = {
-// 	testGroup: "b",
+// 	testGroup: "a",
 // 	greeting,
 // 	birthYear,
 // 	thisYear,
 // 	firstName,
-// 	lastName,
-// 	fullName,
-// 	age
+// 	lastName
 // }
+
+
+// Step 3: (Be sure to comment out Step 2)
+
+module.exports = {
+	testGroup: "b",
+	greeting,
+	birthYear,
+	thisYear,
+	firstName,
+	lastName,
+	fullName,
+	age
+}
