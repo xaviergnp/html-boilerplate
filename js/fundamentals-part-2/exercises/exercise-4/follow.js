@@ -49,12 +49,11 @@
 */
 
 // Edit below this line =============
-const birthYear = 1948;
-const thisYear = 1965;
-const firstName = "Carlos";
-const lastName = "Stevenson";
-
-const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+const firstName = "Jake";
+const lastName = "Doug";
+const birthYear = 2005;
+let thisYear = 2023;
+let greeting = `Hello ${firstName}, how is your family bussines -${lastName} Donuts- doing? You can inherit the company since you\'re already ${thisYear-birthYear} years old!`;
 
 console.log(greeting);
 
