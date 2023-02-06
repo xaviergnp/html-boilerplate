@@ -1,6 +1,9 @@
-"using strict";
+// "using strict";
 import { troubleshooting } from "./troubleshooting.js";
-// const abTroubleshoot = require("./");
+
+
+// const abTroubleshoot = require("./troubleshooting");
+
 // const result = abTroubleshoot();
 const result = troubleshooting();
 
