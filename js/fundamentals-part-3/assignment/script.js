@@ -1,3 +1,5 @@
+"use strict";
+
 function add7(number) {
     return Number(number)+7;
 }
