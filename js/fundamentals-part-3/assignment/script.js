@@ -20,5 +20,5 @@ function lastLetter(word) {
 console.log(
     add7("8"),
     multiply("4","2"),
-    capitalize("c"),
-    lastLetter("c"));
+    capitalize("cAtS"),
+    lastLetter("DoGs"));
