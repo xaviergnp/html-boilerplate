@@ -14,7 +14,7 @@
 //     }
 //     start++;
 // }
-let num = prompt("Input a number: ");
+let num = parseInt(prompt("Input a number: "));
 let start = 0;
 let wordList=`${0} to ${num}<br><br>`;
 while (start <num){
