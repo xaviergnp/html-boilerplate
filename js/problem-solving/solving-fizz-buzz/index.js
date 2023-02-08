@@ -15,9 +15,9 @@
 //     start++;
 // }
 let num = parseInt(prompt("Input a number: "));
-let start = 0;
+
 let wordList=`${0} to ${num}<br><br>`;
-while (start <num){
+for ( let start = 0; start <num; start++){
 
     if (start % 3 == 0 && start % 5 == 0) {
         wordList+="FizzBuzz<br>";
@@ -28,7 +28,6 @@ while (start <num){
     } else {
         wordList+=`${start}<br>`;
     }
-    start++;
 }
 let disp = document.getElementById("display-list");
 disp.innerHTML = wordList;
