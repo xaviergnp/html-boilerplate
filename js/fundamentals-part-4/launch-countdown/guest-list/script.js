@@ -15,5 +15,5 @@ for (let guest of people) {
         admitted.textContent += `${guest}, `;
     }
 }
-admitted.textContent = admitted.textContent.slice(0,-2);
-refused.textContent = refused.textContent.slice(0,-2)
+admitted.textContent = admitted.textContent.slice(0,-2)+".";
+refused.textContent = refused.textContent.slice(0,-2)+".";
