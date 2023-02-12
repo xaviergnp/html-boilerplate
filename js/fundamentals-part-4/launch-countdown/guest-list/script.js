@@ -1,4 +1,15 @@
 "use strict";
+function filterGuest(guests) {
+    let refusedGuest = "";
+    let admittedGuest = "";
+    if (guests == "Phil" || guests == "Lola") {
+        refusedGuest+=guests;
+    } else {
+        admittedGuest+=guests;
+    }
+    return [refusedGuest,admittedGuest];
+}
+
 const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
 
 const admitted = document.querySelector('.admitted');
@@ -7,6 +18,6 @@ admitted.textContent = 'Admit: ';
 refused.textContent = 'Refuse: ';
 
 // loop starts here
-
-// refused.textContent += ;
-// admitted.textContent += ;
+let filteredGuest = people.forEach(filterGuest());
+refused.textContent += filterGuest[0];
+admitted.textContent += filterGuest[1];
