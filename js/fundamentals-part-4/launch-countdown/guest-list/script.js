@@ -14,7 +14,6 @@ for (let guest of people) {
     } else {
         admitted.textContent += `${guest}, `;
     }
-    console.log(guest);
 }
-admitted.textContent = admitted.textContent.slice(-2);
-refused.textContent = refused.textContent.slice(-2)
+admitted.textContent = admitted.textContent.slice(0,-2);
+refused.textContent = refused.textContent.slice(0,-2)
