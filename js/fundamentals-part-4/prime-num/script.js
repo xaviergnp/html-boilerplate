@@ -1,15 +1,12 @@
 "use strict";
 function getPrime(num) {
     let primeNum = "Prime Numbers: ";
+    primeLoop: 
     for (let i = 1; i<=num; i++) {
-        let primeCheck=true;
         for(let n=2; n<i; n++) {
-            if (i%n == 0) {
-                primeCheck=false;
-                break;
-            }
+            if (i%n == 0) continue primeLoop;
         }
-        if (primeCheck) primeNum += `${i} `;
+        primeNum += `${i} `;
     }
     console.log(primeNum);
 }
