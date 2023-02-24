@@ -11,3 +11,9 @@ buttons.forEach((button) => {
         alert(button.id);
     });
 });
+
+const keypress = document.querySelector("#input");
+document.addEventListener("keydown", (e) => {
+    keypress.textContent += `${e.key} `;
+    console.log(e);
+});
