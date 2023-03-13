@@ -12,10 +12,19 @@ const cat = {
   }
   
   function createGreeting(obj) {
-    obj.greeting = () => console.log(`Hello, said ${ obj.name } the ${ obj.breed }.`);
+    // obj.greeting = () => console.log(`Hello, said ${ obj.name } the ${ obj.breed }.`);
+    obj.greeting = `Hello, said ${ obj.name } the ${ obj.breed }.`;
   }
   
   createGreeting(cat);
   createGreeting(cat2);
-  cat.greeting(); 
-  cat2.greeting();
+  
+  let section = document.querySelector("section");
+  
+  let para1 = document.createElement("p");
+  para1.textContent = cat.greeting;
+  section.appendChild(para1);
+
+  let para2 = document.createElement("p");
+  para2.textContent = cat2.greeting;
+  section.appendChild(para2);
